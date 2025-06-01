@@ -1,0 +1,15 @@
+[Unit]
+Description=ServerGame
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/server/game
+ExecStart=/server/game/ServerGame.x86_64 -batchmode -nographics -logfile /server/game/game.log &
+
+[Install]
+WantedBy=multi-user.target

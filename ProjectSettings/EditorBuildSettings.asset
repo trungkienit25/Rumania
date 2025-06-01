@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Menu/Menu.unity
+    guid: 8b91b7925b8b3184294002162dd2d6fe
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Menu/MenuLobby.unity
+    guid: b0a63d2e738056f4992e325b895c192c
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/Forest.unity
+    guid: 222d2937e70fa38488a3313b978a7c62
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/Farm.unity
+    guid: 0793fab15ce674942b2298c5e09012a1
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/House.unity
+    guid: 9b866e1504c050744b737445498d54ad
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/Mine.unity
+    guid: 7554d492f045e7e499fd2095e878bcdb
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/Test.unity
+    guid: 4f23717869dae8349aca4d43c06422de
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/Blank.unity
+    guid: 8a86f3861fb3ebb41afbd0f64a86eaf6
+  - enabled: 0
+    path: Assets/SurvivalEngine/Scenes/Server/ServerGame.unity
+    guid: eac2a872e0fa22145bc80a4a27a114fb
+  - enabled: 0
+    path: Assets/SurvivalEngine/Scenes/Server/ServerLobby.unity
+    guid: 3aca1966b0435ce41ae849132be25642
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/Farm 1.unity
+    guid: 3334a5656c17a924ba787a67c9da3068
+  m_configObjects: {}

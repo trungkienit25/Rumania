@@ -1,0 +1,15 @@
+[Unit]
+Description=ServerLobby
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/server/lobby
+ExecStart=/server/lobby/ServerLobby.x86_64 -batchmode -nographics -logfile /server/lobby/lobby.log &
+
+[Install]
+WantedBy=multi-user.target

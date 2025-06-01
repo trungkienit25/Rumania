@@ -1,0 +1,48 @@
+﻿
+
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+#define PI 3.14159265358979323846
+#include "./Cginc/noiseSimplex.cginc"
+
+float2 waveDir;
+float2 frequencies;
+float time;
+float2 speeds;
+float3 amplitudes;
+float waterSize;
+float noiseSpeed;
+float noiseAmp;
+float noiseScale;
+
+RWStructuredBuffer<float3> yPositions;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	// Calculations derived from shader script
+	float k1 = (2 * PI) / (1 / frequencies.x);
+	float k2 = (2 * PI) / (1 / frequencies.y);
+
+	float a1 = amplitudes.x * waterSize * frequencies.x / (k1 * 100);
+	float a2 = amplitudes.y * waterSize * frequencies.y / (k2 * 100);
+
+	float sf1 = k1 * (((yPositions[id.x].x * waveDir.x + yPositions[id.x].z * waveDir.y) / (waterSize * 2)) - ((speeds.x / 10) * (time)));
+
+	// Find new x and z starting values to work with wave calculations
+	yPositions[id.x].x -= a1 * cos(sf1) / (amplitudes.x * 5) * waveDir.x;
+	yPositions[id.x].z -= a1 * cos(sf1) / (amplitudes.x * 5) * waveDir.y;
+
+	float f1 = k1 * (((yPositions[id.x].x * waveDir.x + yPositions[id.x].z * waveDir.y) / (waterSize * 2)) - ((speeds.x / 10) * (time)));
+	float f2 = k2 * (((yPositions[id.x].x * -waveDir.x + yPositions[id.x].z * waveDir.y) / (waterSize * 2)) - ((speeds.y / 10) * (time)));
+
+	float x = (yPositions[id.x].x / ((waterSize * noiseScale) / 50)) + (time * noiseSpeed / 5);
+	float z = (yPositions[id.x].z / ((waterSize * noiseScale) / 50)) + (time * noiseSpeed / 5);
+	float noise = snoise(float4(x, z, 0, 0));
+
+	// Final position value calculations
+	yPositions[id.x].y = (a1 * sin(f1)) + (a2 * sin(f2)) + (noise * noiseAmp);
+	yPositions[id.x].x += a1 * cos(sf1) / (amplitudes.x * 5) * waveDir.x;
+	yPositions[id.x].z += a1 * cos(sf1) / (amplitudes.x * 5) * waveDir.y;
+}

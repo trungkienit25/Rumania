@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 519bc6651aedb2f4ca5c7705023a22e0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hoe_item: {fileID: 11400000, guid: 14a49d10210d4d0428dc0e9a15ea7732, type: 2}
+  - hoe_soil: {fileID: 11400000, guid: 3e0dd397b7fc743428fc371cad4ba389, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
