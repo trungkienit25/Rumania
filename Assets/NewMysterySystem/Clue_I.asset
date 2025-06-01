@@ -52,7 +52,6 @@ MonoBehaviour:
   eat_bonus: []
   eat_bonus_duration: 0
   actions:
-  - {fileID: 11400000, guid: 17b75beac07840640b31eef007871378, type: 2}
   - {fileID: 11400000, guid: fb885809608c82040b50dc41e80af153, type: 2}
   - {fileID: 11400000, guid: c940e7d1134ced948824248625884a12, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
