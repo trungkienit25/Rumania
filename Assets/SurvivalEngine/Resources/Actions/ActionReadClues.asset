@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed7fb99d09d3bd54893bd83bddac30ca, type: 3}
-  m_Name: ActionReadClue
+  m_Name: ActionReadClues
   m_EditorClassIdentifier: 
-  title: "\u0110\u1ECDc manh m\u1ED1i"
+  title: reading_croll
   clueItemGroupForTracking: {fileID: 11400000, guid: fb382cc89d92dbd4f8d4dddb73d711e1,
     type: 2}
   requiredClueItemIDsForCompletion:
@@ -25,3 +25,4 @@ MonoBehaviour:
   finalClueNarrativeFR: "T\u1EA5t c\u1EA3 c\xE1c m\u1EA3nh gh\xE9p \u0111\xE3 \u0111\u01B0\u1EE3c
     t\xECm th\u1EA5y! \u0110\u1EA1i d\u01B0\u01A1ng \u0111ang g\u1EB7p nguy hi\u1EC3m
     b\u1EDFi v\xEC..."
+  puzzleCompletionID: ocean_mystery_puzzle
