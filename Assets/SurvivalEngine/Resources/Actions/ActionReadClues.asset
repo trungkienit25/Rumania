@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed7fb99d09d3bd54893bd83bddac30ca, type: 3}
   m_Name: ActionReadClues
   m_EditorClassIdentifier: 
-  title: reading_croll
+  title: Read this scroll
   clueItemGroupForTracking: {fileID: 11400000, guid: fb382cc89d92dbd4f8d4dddb73d711e1,
     type: 2}
   requiredClueItemIDsForCompletion:

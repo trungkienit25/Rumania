@@ -41,9 +41,9 @@ MonoBehaviour:
   bag_size: 0
   equip_bonus: []
   weapon_type: 20
-  damage: 10
-  range: 10
-  attack_speed: 1
+  damage: 30
+  range: 20
+  attack_speed: 2
   attack_cooldown: 0.5
   strike_per_attack: 1
   strike_interval: 0

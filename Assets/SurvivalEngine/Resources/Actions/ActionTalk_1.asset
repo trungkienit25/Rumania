@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bc4ac022cd1404e9ca8a39f845b1e3, type: 3}
+  m_Name: ActionTalk_1
+  m_EditorClassIdentifier: 
+  title: "NPC \u0111\u1EA7u ti\xEAn"
+  dialogue_title: "Xin ch\xE0o, ng\xE0i thanh tra"
+  dialogue_text: "Th\u01B0a thanh tra, c\u1EE9 nh\u01B0 th\u1EC3 bi\u1EC3n c\u1EA3
+    \u0111\xE3... qu\xEAn c\xE1ch cho \u0111i v\u1EADy.\nL\u01B0\u1EDBi k\xE9o l\xEAn
+    tr\u1ED1ng r\u1ED7ng, ng\xE0y n\xE0y qua ng\xE0y kh\xE1c. Kh\xF4ng r\xF5 g\xEC
+    \u0111ang x\u1EA3y ra d\u01B0\u1EDBi nh\u1EEFng v\xF9ng n\u01B0\u1EDBc n\xE0y?\n"
