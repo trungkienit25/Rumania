@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/SurvivalEngine/Scenes/Game/Forest.unity
     guid: 222d2937e70fa38488a3313b978a7c62
   - enabled: 1
-    path: Assets/SurvivalEngine/Scenes/Game/Farm.unity
+    path: Assets/SurvivalEngine/Scenes/Game/Farm_backup.unity
     guid: 0793fab15ce674942b2298c5e09012a1
   - enabled: 1
     path: Assets/SurvivalEngine/Scenes/Game/House.unity
@@ -36,6 +36,6 @@ EditorBuildSettings:
     path: Assets/SurvivalEngine/Scenes/Server/ServerLobby.unity
     guid: 3aca1966b0435ce41ae849132be25642
   - enabled: 1
-    path: Assets/SurvivalEngine/Scenes/Game/Farm 1.unity
+    path: Assets/SurvivalEngine/Scenes/Game/Farm.unity
     guid: 3334a5656c17a924ba787a67c9da3068
   m_configObjects: {}
