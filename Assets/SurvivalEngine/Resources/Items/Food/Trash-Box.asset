@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: trash-Box
   title: Trash
-  icon: {fileID: 21300000, guid: 6fc6cfa1b4d633e4086ff967aac651bf, type: 3}
+  icon: {fileID: 21300000, guid: 04bfd12462a3ccf4da01ab42eff440e1, type: 3}
   desc: Edible and sweet. Once opened
   groups: []
   craftable: 0

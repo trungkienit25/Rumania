@@ -39,7 +39,7 @@ namespace SurvivalEngine
             int time_hours = Mathf.FloorToInt(pdata.day_time);
             int time_secs = Mathf.FloorToInt((pdata.day_time * 60f) % 60f);
 
-            day_txt.text = "DAY " + pdata.day;
+            day_txt.text = "JOUR " + pdata.day;
             time_txt.text = time_hours + ":" + time_secs.ToString("00");
 
             bool clockwise = pdata.day_time <= 12f;

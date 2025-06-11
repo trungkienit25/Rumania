@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f81d3cb2a00c421448fdf33c0a772bc6, type: 3}
   m_Name: DrinkSource
   m_EditorClassIdentifier: 
-  title: Drink
+  title: Boisson
   drink_hp: 0
   drink_hunger: 0
   drink_thirst: 50

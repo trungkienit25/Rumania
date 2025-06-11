@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bc4ac022cd1404e9ca8a39f845b1e3, type: 3}
+  m_Name: ActionTalk_2b
+  m_EditorClassIdentifier: 
+  title: Dialogue 2
+  dialogue_title: "S'il vous pla\xEEt"
+  dialogue_text: "Madame l'Inspectrice, nous vous demandons de nous aider \xE0 enqu\xEAter
+    sur les zones en amont, le lac et le littoral. Si ces menaces sont \xE9limin\xE9es,
+    notre village pourra peut-\xEAtre retrouver sa prosp\xE9rit\xE9 d'antan."

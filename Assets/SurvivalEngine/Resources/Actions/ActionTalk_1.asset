@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6bc4ac022cd1404e9ca8a39f845b1e3, type: 3}
   m_Name: ActionTalk_1
   m_EditorClassIdentifier: 
-  title: "NPC \u0111\u1EA7u ti\xEAn"
-  dialogue_title: "Xin ch\xE0o, ng\xE0i thanh tra"
-  dialogue_text: "Th\u01B0a thanh tra, c\u1EE9 nh\u01B0 th\u1EC3 bi\u1EC3n c\u1EA3
-    \u0111\xE3... qu\xEAn c\xE1ch cho \u0111i v\u1EADy.\nL\u01B0\u1EDBi k\xE9o l\xEAn
-    tr\u1ED1ng r\u1ED7ng, ng\xE0y n\xE0y qua ng\xE0y kh\xE1c. Kh\xF4ng r\xF5 g\xEC
-    \u0111ang x\u1EA3y ra d\u01B0\u1EDBi nh\u1EEFng v\xF9ng n\u01B0\u1EDBc n\xE0y?\n"
+  title: Dialogue 1
+  dialogue_title: Bonjour, Madame.
+  dialogue_text: "Madame Inspectrice, c'est comme si la mer avait oubli\xE9 comment
+    donner. Les filets remontent vides, jour apr\xE8s jour. On ne sait pas ce qui
+    se passe sous ces eaux."

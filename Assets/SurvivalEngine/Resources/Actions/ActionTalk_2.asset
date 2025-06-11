@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6bc4ac022cd1404e9ca8a39f845b1e3, type: 3}
   m_Name: ActionTalk_2
   m_EditorClassIdentifier: 
-  title: "NPC manh m\u1ED1i"
-  dialogue_title: "Ch\xE0o ng\xE0y thanh tra"
-  dialogue_text: "T\u1EEB ng\xE0y l\xE0ng ch\xE0i b\u1ECB l\u1EDDi nguy\u1EC1n l\u01B0\u1EDBi
-    tr\u1ED1ng, l\u0169 tr\u1EBB ng\u01B0 d\xE2n hay kh\xE1o nhau \"T\u1EEB ta c\u1EA7n
-    c\xF3 n\u0103m ng\u01B0\u1EDDi anh em, ch\u1EB3ng ai gi\u1ED1ng ai. Hai trong
-    s\u1ED1 \u0111\xF3 c\u1EA5t vang l\u1EDDi ca, Ba ng\u01B0\u1EDDi c\xF2n l\u1EA1i
-    ch\u1EC9 l\u1EB7ng im. C\xF9ng nhau d\u1EC7t n\xEAn th\u1EE9 b\u1EABy bi\u1EC3n
-    kh\u01A1i.\""
+  title: Dialogue 1
+  dialogue_title: La Source du Mal
+  dialogue_text: "Le grave d\xE9s\xE9quilibre de l'\xE9cosyst\xE8me aquatique, qui
+    provoque l'effondrement de la cha\xEEne alimentaire, semble d\xFB \xE0 l'exploitation
+    p\xE9troli\xE8re en amont et au surtourisme sur la c\xF4te."
