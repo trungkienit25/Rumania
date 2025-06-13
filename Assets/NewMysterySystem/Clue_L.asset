@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: manhmoi_l
   title: L
-  icon: {fileID: 21300000, guid: e8ce94387b393c046b9867ee40d06c5d, type: 3}
+  icon: {fileID: 21300000, guid: db09b11bc6a45be45a71668e17b35737, type: 3}
   desc: "m\u1ED9t ch\u1EEF"
   groups:
   - {fileID: 11400000, guid: fb382cc89d92dbd4f8d4dddb73d711e1, type: 2}
