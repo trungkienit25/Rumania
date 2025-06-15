@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/SurvivalEngine/Scenes/Game/Mine.unity
     guid: 7554d492f045e7e499fd2095e878bcdb
   - enabled: 1
-    path: Assets/SurvivalEngine/Scenes/Game/Test.unity
+    path: Assets/SurvivalEngine/Scenes/Game/Test1.unity
     guid: 4f23717869dae8349aca4d43c06422de
   - enabled: 1
     path: Assets/SurvivalEngine/Scenes/Game/Blank.unity

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: farmer_male
   m_EditorClassIdentifier: 
   id: farmer_male
-  title: Farmer Boy
+  title: "\xC9lise Moreau"
   portrait: {fileID: 21300000, guid: 1788b6351d2c2e444b77f965d27f7769, type: 3}
-  prefab: {fileID: 6778699993473853970, guid: 94ba7609da314cbd94b8d5881f8696cc, type: 3}
+  prefab: {fileID: 6098794520045224930, guid: e30c7eea511d45988cbaa3601f7b2e2d, type: 3}
   sort_order: 2

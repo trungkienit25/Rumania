@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: character_female
   m_EditorClassIdentifier: 
   id: character_female
-  title: Girl
+  title: "\xC9lise Moreau"
   portrait: {fileID: 21300000, guid: 3994acc362885a44bbd764672867f13b, type: 3}
-  prefab: {fileID: 6098794520045224930, guid: cd62742a97370a745b2c8e13afeb0c8c, type: 3}
+  prefab: {fileID: 6098794520045224930, guid: e30c7eea511d45988cbaa3601f7b2e2d, type: 3}
   sort_order: 1
